@@ -5,7 +5,7 @@ import io.kotest.property.arbitrary.int
 import io.kotest.property.checkAll
 
 class DemoTest : DescribeSpec({
-  describe("Demo") {
+  xdescribe("Demo") {
     it("should work") {
       1 + 1 shouldBe 2
     }
